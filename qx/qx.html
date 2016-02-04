@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>纷享销客 企信独立版</title>
+    <link rel="shortcut icon" href="http://www.fxiaoke.com/favicon.ico">
+    <link rel="stylesheet" href="https://www.fxiaoke.com/XV/Asset/css/login-v1.css?20150604">
+    <link rel="stylesheet" href="http://www.fspage.com/html/base-dist/assets/style/all.css?12.0">
+    <link rel="stylesheet" href="http://www.fspage.com/html/fs-dist/assets/style/all.css?12.0">
+    <link rel="stylesheet" href="login-overload.css">
+    <link rel="stylesheet" href="qx-overload.css">
+</head>
+<body>
+    <div class="main" id="login">
+        <div class="login-inner-wrapper">
+            <div id="new-login">
+                <h2>登 录</h2>
+                <form id="info-list">
+                    <div class="j-phone-num phone-num input-wrapper reg-list j-reg-list">
+                        <input class="reg-ipt j-ipt-phonenum ipt-phonenum" type="text" name="phoneNum" placeholder="请输入手机号" tabindex="1">
+                    </div>
+                    <div class="reg-list input-wrapper j-reg-list">
+                        <input class="reg-ipt j-ipt-password ipt-password" type="password" name="password" placeholder="请输入密码" tabindex="2">
+                    </div>
+                    <div class="reg-list j-reg-list input-wrapper j-code-img-b code-img-b">
+                        <input class="reg-ipt j-ipt-imgcode ipt-imgcode" type="text" placeholder="请输入图形验证码" name="imgCode" maxlength="8" tabindex="3">
+                        <img class="j-code-img code-img" id="vcode-img" src="">
+                    </div>
+                    <div class="reg-list j-reg-list login-option" style="display:none">
+                        <span class="f-label-b" style="position: relative;">
+                            <input type="checkbox" checked="checked" style="text-align: left; width: 20px;" class="new-savecookie" name="isSaveCookie" tabindex="4">
+                            <label for="isSaveCookie">5天内自动登录</label>
+                        </span>
+                        <span class="input-advise">（建议在网吧/公用电脑上取消该选项）</span>
+                    </div>
+                    <div class="j-btn-login btn-login">
+                        <span class="f-label"></span>
+                        <span class="loading" style="display:none;">登录中...</span>
+                        <input class="reg-btn login-button" type="submit" name="submit" tabindex="5" value="登　录">
+                    </div>
+                </form>
+            </div>
+            <p style="text-align:center">纷享销客 企信独立版 - PC客户端 v0.4.0 Powered by Sun via <a href="http://hex.youdao.com/">heX</a></p>
+            <p class="js-login-result"></p>
+        </div>
+    </div>
+    <script src="fsconfig.js"></script>
+    <script src="https://www.fspage.com/html/base-dist/assets/js/base.js?7-1"></script>
+    <script src="https://www.fspage.com/html/base-dist/assets/js/all.js?7-1"></script>
+    <script src="fsappstore.js"></script>
+    <script src="contacts1.js"></script>
+    <script src="init.js"></script>
+</body>
+</html>

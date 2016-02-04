@@ -1,0 +1,13 @@
+.qx-wrapper {
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+}
+.qx-session-wrapper {
+    width: auto !important;
+    height: 100%;
+}
+.user-list-wrapper .tab-con {
+    right: 0 !important;
+    width: auto !important;
+}
